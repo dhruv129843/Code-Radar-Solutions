@@ -4,7 +4,7 @@
 int main() {
     int N;
     
-    // Take input for the side of the square
+    
     printf("Enter the side length of the square: ");
     scanf("%d", &N);
     
