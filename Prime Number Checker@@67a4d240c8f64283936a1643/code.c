@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int is_prime(int t);
-int is_prime(int t)
+int isPrime(int t);
+int isPrime(int t)
  {
     if (t<= 1) {
         return 0;  // 0 and 1 are not prime
