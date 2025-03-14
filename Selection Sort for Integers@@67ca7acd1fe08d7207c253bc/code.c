@@ -4,14 +4,14 @@
  int min=i;
 for(int j=i+1;j<n;j++){
     if (arr[j]<arr[min]){
-    int min=j;}
-
- if (min !=i){
-int temp= arr[min];
-arr min= arr[i];
-arr[i]=temp;
- }
+     min=j;}
 }
+        if (max != i) {
+            int temp = arr[min];
+            arr[min] = arr[i];
+            arr[i] = temp;
+
+ }
  }
  }
  
