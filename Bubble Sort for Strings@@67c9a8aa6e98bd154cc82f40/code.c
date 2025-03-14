@@ -1,5 +1,5 @@
 // Your code here...
-char bubbleSort(char arr[], int n){
+char bubbleSort(int arr[], int n){
     for(int pass=0;pass<n-1; pass++){
     for(int i=0; i<n-1-pass; i++){
         if(arr[i]>arr[i+1]){
