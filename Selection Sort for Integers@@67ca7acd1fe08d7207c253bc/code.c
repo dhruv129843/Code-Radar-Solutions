@@ -14,7 +14,10 @@ for(int j=i+1;j<n;j++){
  }
  }
  }
-int printArray(int arr[],int n)
+int  printArray(int arr[],int n):
+    for i in range(n):
+        print(arr[i], end=" ")
+    print()  # for new line after printing the array
     
 
  
