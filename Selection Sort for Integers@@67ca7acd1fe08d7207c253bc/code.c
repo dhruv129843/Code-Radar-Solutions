@@ -14,5 +14,7 @@ for(int j=i+1;j<n;j++){
  }
  }
  }
+int printArray(arr,n);
+return 0;
  
 
