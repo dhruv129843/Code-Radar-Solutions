@@ -14,6 +14,8 @@ for(int j=i+1;j<n;j++){
  }
  }
  }
-int printArray(int arr[],int n);
+int printArray(int arr[],int n){
+    printf( arr[], n)
+}
  
 
