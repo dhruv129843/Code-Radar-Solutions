@@ -4,7 +4,7 @@
  int min=i;
 for(int j=i+1;j<n;j++){
     if (arr[j]<arr[i]){
-     min=j;}
+     min=j;
 
  if (min !=i){
 int temp= arr[min];
