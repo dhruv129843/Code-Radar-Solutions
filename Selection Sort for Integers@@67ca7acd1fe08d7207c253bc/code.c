@@ -6,7 +6,7 @@ for(int j=i+1;j<n;j++){
     if (arr[j]<arr[min]){
      min=j;}
 }
-        if (max != i) {
+        if (min != i) {
             int temp = arr[min];
             arr[min] = arr[i];
             arr[i] = temp;
