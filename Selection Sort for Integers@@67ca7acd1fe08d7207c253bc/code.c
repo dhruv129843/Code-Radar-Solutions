@@ -14,11 +14,12 @@ for(int j=i+1;j<n;j++){
  }
  }
  }
-int  printArray(int arr[],int n):
-    for i in range(n):
-        print(arr[i], end=" ")
-    print()  # for new line after printing the array
-    
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n"); // for a new line after printing the array
+}
 
  
 
