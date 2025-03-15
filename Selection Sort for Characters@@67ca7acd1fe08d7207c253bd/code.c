@@ -14,8 +14,8 @@ for(int j=i+1;j<n;j++){
  }
  }
 void printArray(char arr[], int n) {
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+    for (char ch = 'a'; ch <= z; ch++) {
+        printf("%d ", arr[ch]);
     }
     printf("\n"); // for a new line after printing the array
 }
