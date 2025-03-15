@@ -1,12 +1,9 @@
-void selectionSort(char arr[], int n){
-    for(int i=0; i<n-1; i++){
-        int min=i;{
-            for(int j=1+i;j<n;j++){
-                if(arr[j]<arr[i])
-                int min=j;
-            }
-        }
-    }
+void selectionSort( char  arr[], int n){
+ for(int i=0;i<n-1;i++){
+ int min=i;
+for(int j=i+1;j<n;j++){
+    if (arr[j]<arr[min]){
+     min=j;}
 }
         if (min != i) {
             int temp = arr[min];
@@ -14,7 +11,8 @@ void selectionSort(char arr[], int n){
             arr[i] = temp;
 
  }
- 
+ }
+ }
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
@@ -23,4 +21,5 @@ void printArray(int arr[], int n) {
 }
 
  
+
 
