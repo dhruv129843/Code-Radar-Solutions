@@ -2,9 +2,9 @@
 
 void fibonacciSeries(int n){
     int p1=1;
-    printf("%d ",p1)
+    printf("%d ",p1);
     int p2=0;
-    printf("%d ",p2)
+    printf("%d ",p2);
     for(int i=1;i<=n;i++){
     if(i>2){
         int p3= p2+p1;
