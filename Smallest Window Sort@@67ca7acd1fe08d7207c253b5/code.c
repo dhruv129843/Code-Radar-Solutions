@@ -6,11 +6,14 @@ void findUnsortedSubarray(int arr[],int n){
                 int temp= arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
-                printf("%d\n",findUnsortedSubarray(int arr[],int n));
-    
+                printf("%d\n", &temp);
+                
 
             }
         }
 
     }
 }
+
+printf("%d\n",findUnsortedSubarray(int arr[],int n));
+    
