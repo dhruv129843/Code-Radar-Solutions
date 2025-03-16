@@ -8,7 +8,7 @@ void fibonacciSeries(int n){
         int p3= p2+p1;
         p1=n;
         n=p3;
-        printf("%d ",p3);
+        printf(" %d ",p3);
     }
     else  if(i==2){
         printf("%d",p1);
