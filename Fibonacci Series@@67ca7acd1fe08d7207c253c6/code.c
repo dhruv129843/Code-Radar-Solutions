@@ -1,9 +1,9 @@
 // Your code here...
 
 void fibonacciSeries(int n){
-    int p1=1;
+    int p1=1 ;
     
-    int p2=0;
+    int p2=0 ;
     
     for(int i=1;i<=n;i++){
     if(i>2){
