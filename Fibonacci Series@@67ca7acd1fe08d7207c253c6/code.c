@@ -6,9 +6,9 @@ void fibonacciSeries(int n){
     for(int i=1;i<=n;i++){
     if(i>2){
         int p3= p2+p1;
-        p1=p2;
-        p1=p3;
-        printf("%d\n",p3);
+        p1=n;
+        n=p3;
+        printf("%d ",p3);
     }
     else  if(i==2){
         printf("%d",p1);
