@@ -15,5 +15,5 @@ void findUnsortedSubarray(int arr[],int n){
     }
 }
 
-printf("%c\n",&findUnsortedSubarray(int arr[],int n));
+printf(findUnsortedSubarray(int arr[],int n));
     
