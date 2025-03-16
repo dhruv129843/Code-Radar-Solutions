@@ -5,7 +5,7 @@ void selectionSort(char arr[][100], int n){
         for(int j=i+1;j<n;j++){
             if(arr[i]>arr[j]){
                 int min=j;
-                char temp=arr[min];
+                char *temp=arr[min];
                 arr[min]=arr[j];
                 arr[j]=min;
             }
