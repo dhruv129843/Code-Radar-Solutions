@@ -2,7 +2,7 @@
 
 void fibonacciSeries(int n){
     int p1=1;
-    printf(" ");
+    //printf(" ");
     int p2=0 ;
           // Print the first two numbers with a space
           printf(" ");
