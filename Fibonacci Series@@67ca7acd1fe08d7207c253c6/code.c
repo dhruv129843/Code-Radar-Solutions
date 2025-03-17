@@ -1,9 +1,9 @@
 // Your code here...
 
 void fibonacciSeries(int n){
-    int p1=1("\n") ;
+    int p1=1;("\n") 
     
-    int p2=0 ("\n");
+    int p2=0 ;("\n") 
           // Print the first two numbers with a space
 
     
