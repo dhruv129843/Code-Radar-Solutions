@@ -10,8 +10,8 @@ void fibonacciSeries(int n){
     for(int i=1;i<=n;i++){
     if(i>2){
         int p3= p2+p1;
-        p1=p2;
-       p2=p3;
+        p2=p1;
+       p1=p3;
         printf("%d ",p3);
     }
     else  if(i==2){
