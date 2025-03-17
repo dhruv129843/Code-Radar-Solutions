@@ -15,10 +15,10 @@ void fibonacciSeries(int n){
         printf("%d ",p3);
     }
     else  if(i==2){
-        printf("%d",p1);
+        printf("%d ",p1);
     }
     else if(i==1){
-        printf("%d",p2);
+        printf("%d ",p2);
     }
     }
 
