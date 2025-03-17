@@ -2,10 +2,10 @@
 
 void fibonacciSeries(int n){
     int p1=1;
-    
+    printf(" ");
     int p2=0 ;
           // Print the first two numbers with a space
-
+          printf(" ");
     
     for(int i=1;i<=n;i++){
     if(i>2){
