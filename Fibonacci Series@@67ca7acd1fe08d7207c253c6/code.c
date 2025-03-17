@@ -5,7 +5,7 @@ void fibonacciSeries(int n){
     //printf(" ");
     int p2=0 ;
           // Print the first two numbers with a space
-          printf(" ");
+        //  printf(" ");
     
     for(int i=1;i<=n;i++){
     if(i>2){
