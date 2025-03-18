@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &n);
 
     // Loop to print numbers from 0 to n
-    for(int i = 0; i <= n; i++) {
+    for(int i = 1; i <= n; i++) {
         printf("%d ", i);  // Corrected printf
     }
 
