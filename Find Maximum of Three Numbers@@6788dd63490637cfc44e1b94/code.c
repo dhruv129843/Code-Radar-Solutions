@@ -7,7 +7,7 @@ int main(){
         printf("%d", &a);
     }
     else if(s>a && s>d){
-        printf("%d", &d);
+        printf("%d", &s);
     }
-    else{printf("%d", &s);}
+    else{printf("%d", &d);}
 }
