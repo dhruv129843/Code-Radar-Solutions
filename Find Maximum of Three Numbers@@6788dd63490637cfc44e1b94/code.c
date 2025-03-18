@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int a,s,d;
-    scanf("%d %d %d",%a,%s,&d);
+    scanf("%d %d %d",&a,&s,&d);
     if(a>s && a>d){
         printf("%d", &a);
     }
