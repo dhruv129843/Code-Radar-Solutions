@@ -1,7 +1,17 @@
 // Your code here...
-int main(){
-int n;
+#include <stdio.h>
 
-for(int i=1;i<=n;i++){
-    printf("%d",i);
-} return =0;}
+int main() {
+    int n;
+    
+    // Taking input from the user
+   
+    scanf("%d", &n);
+
+    // Loop to print numbers from 0 to n
+    for(int i = 0; i <= n; i++) {
+        printf("%d ", i);  // Corrected printf
+    }
+
+    return 0;
+}
