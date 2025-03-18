@@ -1,0 +1,10 @@
+// Your code here...
+#include <stdio.h>
+int n;
+scanf("%d",&n);
+if((n%5==0) && (n%11==0)){
+    printf("Divisible");
+    else{
+        printf("Not Divisible");
+    }
+}
