@@ -1,4 +1,5 @@
 // Your code here...
+#include<stdio.h>
 int main(){
     int n,x;
     scanf("%d %d",&n,&x);
@@ -9,4 +10,4 @@ int main(){
         printf("No");
     }
 }
-int n,x;
+
