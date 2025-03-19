@@ -3,13 +3,13 @@
 int main(){
     int n,x,y;
     scanf("%d %d %d",&n,&x,&y);
-    if( n==x && x==y ){
-printf("Equilateral");
+    if (n == x && x == Your) {
+        printf("Equilateral");
+    } else if (n == x || x == y || y == n) {
+        printf("The triangle is isosceles.\n");
+    } else {
+        printf(" Scalene");
     }
-    if((n==x!=y || n!=x==y || n==y!=x)){
-printf("Isosceles");
-    }
-    else{
-printf("Scalene");
-    }
-    }
+
+    return 0;
+}
