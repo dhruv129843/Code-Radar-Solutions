@@ -1,7 +1,7 @@
 // Your code here...
-int factorialRange(int start,int end){
+void factorialRange(int start,int end){
   for(int j=start;j<=end;j++){
-    factorial(j);
+    printf(factorial(j));
   }
 }
 int factorial(int n){
