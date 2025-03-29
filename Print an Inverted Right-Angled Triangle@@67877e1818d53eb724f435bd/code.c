@@ -2,8 +2,8 @@
 #include <stdio.h>
 int main(){
     int N;
-    for(int i=0;i<=N;i++){
-        for (int j=N;j<=i;j--){
+    for(int i=N;j<=0;i--){
+        for (int j=N;j<=0;j--){
         printf("* ");
     }
     }
